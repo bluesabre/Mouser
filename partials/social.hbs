@@ -1,0 +1,12 @@
+<div class="social-links">
+    <a class="social-link social-link-gh" href="#" title="GitHub" target="_blank" rel="noopener">{{> "icons/github"}}</a>
+    {{#if @site.facebook}}
+        <a class="social-link social-link-fb" href="{{facebook_url @site.facebook}}" title="Facebook" target="_blank" rel="noopener">{{> "icons/facebook"}}</a>
+    {{/if}}
+    <a class="social-link social-link-li" href="#" title="LinkedIn" target="_blank" rel="noopener">{{> "icons/linkedin"}}</a>
+    <a class="social-link social-link-ma" href="#" title="Mastodon" target="_blank" rel="noopener">{{> "icons/mastodon"}}</a>
+    <a class="social-link social-link-pa" href="#" title="Patreon" target="_blank" rel="noopener">{{> "icons/patreon"}}</a>
+    {{#if @site.twitter}}
+        <a class="social-link social-link-tw" href="{{twitter_url @site.twitter}}" title="Twitter" target="_blank" rel="noopener">{{> "icons/twitter"}}</a>
+    {{/if}}
+</div>

@@ -2749,25 +2749,12 @@ Usage (In Ghost editor):
     display: flex;
 }
 
-.site-footer-nav a {
-    position: relative;
-    margin-left: 20px;
+.site-footer-nav .social-link {
+    padding-top: 6px;
 }
 
-.site-footer-nav a:before {
-    content: "";
-    position: absolute;
-    top: 11px;
-    left: -11px;
-    display: block;
-    width: 2px;
-    height: 2px;
-    background: #fff;
-    border-radius: 100%;
-}
-
-.site-footer-nav a:first-of-type:before {
-    display: none;
+.site-footer-nav .social-link svg {
+    height: 1.6rem;
 }
 
 @media (max-width: 650px) {
