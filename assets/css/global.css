@@ -485,3 +485,40 @@ h6 {
     font-size: 1.4rem;
     font-weight: 500;
 }
+
+#contact-form {
+    width: 100%;
+}
+
+#contact-form input[type='text'],
+#contact-form input[type='email'],
+#contact-form textarea {
+    width: 98%;
+}
+
+@media (prefers-color-scheme: dark) {
+    #contact-form input,
+    #contact-form textarea {
+        background-color: var(--midgrey);
+        border: 1px solid var(--darkgrey);
+        border-radius: 3px;
+        padding: 3px;
+    }
+}
+
+#contact-form .cf-half {
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#contact-form .cf-half label {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    #contact-form .cf-half {
+        display: block;
+        width: 100%;
+    }
+}
