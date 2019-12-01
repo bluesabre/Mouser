@@ -13,6 +13,7 @@
 
     {{!-- Styles'n'Scripts --}}
     <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
+    <link rel="stylesheet" type="text/css" href="https://code.cdn.mozilla.net/fonts/fira.css">
 
     {{!-- This tag outputs SEO meta+structured data and other important settings --}}
     {{ghost_head}}
@@ -28,7 +29,9 @@
         {{!-- The footer at the very bottom of the screen --}}
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="{{@site.url}}">{{@site.title}}</a> &copy; {{date format="YYYY"}}</section>
+                <section class="copyright">
+                    <a href="{{@site.url}}">{{@site.title}}</a> &copy; {{date format="YYYY"}} &emsp;&middot;&emsp; <a href="/privacy">Privacy Policy</a>
+                </section>
                 <nav class="site-footer-nav">
                     {{> "social"}}
                 </nav>
