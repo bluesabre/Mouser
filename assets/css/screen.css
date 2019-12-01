@@ -580,7 +580,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     flex-direction: column;
     overflow: hidden;
     margin: 0 0 40px;
-    padding: 0 20px 40px;
+    padding: 0 20px 20px;
     min-height: 220px;
     border-bottom: 1px solid color(var(--lightgrey) l(+12%));
     background-size: cover;
@@ -655,7 +655,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .post-card-excerpt p {
-    margin-bottom: 1em;
+    margin-bottom: 0px;
 }
 
 .post-card-meta {
@@ -847,7 +847,6 @@ make sure this only happens on large viewports / desktop-ish devices.
     }
 
     .post-card-large .post-card-excerpt p {
-        margin-bottom: 1.5em;
         font-size: 1.8rem;
         line-height: 1.5em;
     }
