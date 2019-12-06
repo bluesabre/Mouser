@@ -182,6 +182,20 @@ body {
     opacity: 0.8;
 }
 
+.site-header-content .social-links {
+    z-index: 10;
+}
+
+.site-header-content .social-links a:last-of-type {
+    padding-right: 10px !important;
+}
+
+@media (min-width: 701px) {
+    .site-header-content .social-links {
+        display: none;
+    }
+}
+
 /* 4.1 Home header
 /* ---------------------------------------------------------- */
 
