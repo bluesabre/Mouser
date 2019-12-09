@@ -89,6 +89,7 @@
         }
     },
     "dependencies": {
-        "gulp-cli": "^2.2.0"
+        "gulp-cli": "^2.2.0",
+        "yarn": "^1.21.0"
     }
 }
