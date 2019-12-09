@@ -4,7 +4,7 @@ A fork of [Casper](https://github.com/TryGhost/Casper), the default theme for [G
 
 &nbsp;
 
-![screenshot-desktop](https://user-images.githubusercontent.com/353959/66987533-40eae100-f0c1-11e9-822e-cbaf38fb8e3f.png)
+![screenshot-desktop](screenshots/Mouser.png)
 
 &nbsp;
 
