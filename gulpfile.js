@@ -106,8 +106,8 @@ try {
     config = null;
 }
 
-const REPO = 'TryGhost/Casper';
-const USER_AGENT = 'Casper';
+const REPO = 'bluesabre/Mouser';
+const USER_AGENT = 'Mouser';
 const CHANGELOG_PATH = path.join(process.cwd(), '.', 'changelog.md');
 
 const changelog = ({previousVersion}) => {
