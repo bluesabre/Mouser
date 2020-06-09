@@ -68,5 +68,5 @@ You can add your own SVG icons in the same manner.
 
 # Copyright & License
 
-Copyright (c) 2019 Sean Davis - Released under the [MIT license](LICENSE).\
-Copyright (c) 2013-2019 Ghost Foundation - Released under the [MIT license](LICENSE).
+Copyright (c) 2019-2020 Sean Davis - Released under the [MIT license](LICENSE).\
+Copyright (c) 2013-2020 Ghost Foundation - Released under the [MIT license](LICENSE).
