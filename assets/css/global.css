@@ -522,3 +522,8 @@ h6 {
         width: 100%;
     }
 }
+
+/* Remove underline from GitHub bookmark image */
+.post-full-content .kg-bookmark-metadata > a {
+    box-shadow: none;
+}
